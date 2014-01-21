@@ -1,0 +1,59 @@
+<project name="Expr-Eval" default="run">
+
+    <target name="createDist">
+        <mkdir dir="build"></mkdir>
+        <mkdir dir="build/classes/tests"></mkdir>
+        <mkdir dir="lib"></mkdir>
+    </target>
+
+    <target name="compile" depends="createDist">
+        <javac srcdir="src" destdir="build/classes" includeantruntime="false"></javac>
+    </target>
+
+    <target name="compileTest" depends="compile">
+        <javac srcdir="Tests" destdir="build/classes/tests" includeantruntime="false"
+               classpath="lib/junit-4.10.jar;build/classes">
+        </javac>
+    </target>
+
+    <target name="runTest" depends="compileTest">
+        <junit>
+            <classpath>
+                <pathelement location="build/classes"/>
+                <pathelement location="build/classes/tests"/>
+                <pathelement location="lib/junit-4.10.jar"/>
+            </classpath>
+            <batchtest >
+                <fileset dir="build/classes/tests">
+                    <include name="**/*Test*"/>
+                </fileset>
+            </batchtest>
+            <formatter type="brief" usefile="false"/>
+        </junit>
+    </target>
+
+
+    <target name="createJar" depends="runTest">
+        <mkdir dir="ExprEval-Dist/lib"></mkdir>
+        <mkdir dir="ExprEval-Dist/bib"></mkdir>
+        <jar destfile="ExprEval-Dist/lib/ExprEval.jar" basedir="build/classes"></jar>
+    </target>
+
+    <target name="copyScripts" depends="createJar">
+        <copy file="ShellFiles/ExprEval_GS.sh" todir="ExprEval-Dist/bib"></copy>
+    </target>
+
+    <target name="copyReadMe" depends="copyScripts">
+        <copy file="ReadMe.md" todir="ExprEval-Dist"></copy>
+    </target>
+
+    <target name="dist" depends="copyReadMe">
+        <zip zipfile="evaluator-0.0.zip" basedir="ExprEval-Dist"></zip>
+    </target>
+
+    <target name="clean">
+        <delete dir="build/"></delete>
+        <delete dir="ExprEval-Dist"></delete>
+        <delete dir="evaluator-0.0.zip"></delete>
+    </target>
+</project>
