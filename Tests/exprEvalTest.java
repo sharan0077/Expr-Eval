@@ -10,9 +10,17 @@ public class exprEvalTest {
     }
 
     @Test
-    public void testShouldEvaluateExpressionThatContainsOneOperatorAndTwoOperands(){
+    public void testShouldEvaluateExpressionThatContainsPlusOperatorAndTwoOperands(){
         String input = "3 + 4";
         int expected = 7;
+        evalExpr evaluateExpression = new evalExpr();
+        int actual = evaluateExpression.evaluate(input);
+        assertEquals(expected,actual);
+    }
+    @Test
+    public void testShouldEvaluateExpressionThatContainsMinusOperatorAndTwoOperands(){
+        String input = "4 - 3";
+        int expected = 1;
         evalExpr evaluateExpression = new evalExpr();
         int actual = evaluateExpression.evaluate(input);
         assertEquals(expected,actual);

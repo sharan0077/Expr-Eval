@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c391bb66-66e5-4c4e-a8e9-be494fac2de8" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tests/exprEvalTest.java" afterPath="$PROJECT_DIR$/Tests/exprEvalTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Expr-Eval.iws" />
@@ -126,7 +127,7 @@
       <file leaf-file-name="exprEvalTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Tests/exprEvalTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="0" selection-start="526" selection-end="526" vertical-scroll-proportion="0.84" vertical-offset="0" max-vertical-offset="459">
+            <state line="27" column="1" selection-start="836" selection-end="836" vertical-scroll-proportion="0.96" vertical-offset="51" max-vertical-offset="595">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -149,9 +150,9 @@
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/build.xml" />
-        <option value="$PROJECT_DIR$/Tests/exprEvalTest.java" />
         <option value="$PROJECT_DIR$/src/ExprEval/evalExpr.java" />
         <option value="$PROJECT_DIR$/src/cli/exprEvalMain.java" />
+        <option value="$PROJECT_DIR$/Tests/exprEvalTest.java" />
       </list>
     </option>
   </component>
@@ -256,7 +257,7 @@
       <recent name="D:\projects\Expr-Eval\lib" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.exprEvalMain">
+  <component name="RunManager" selected="JUnit.exprEvalTest">
     <configuration default="false" name="exprEvalMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cli.exprEvalMain" />
       <option name="VM_PARAMETERS" value="" />
@@ -451,8 +452,8 @@
     </list>
     <recent_temporary>
       <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Application.exprEvalMain" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.exprEvalTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.exprEvalTest" />
+        <item index="1" class="java.lang.String" itemvalue="Application.exprEvalMain" />
         <item index="2" class="java.lang.String" itemvalue="JUnit.exprEvalTest.testShouldEvaluateExpressionThatContainsOneOperatorAndTwoOperands" />
       </list>
     </recent_temporary>
@@ -497,7 +498,11 @@
       <created>1390455285534</created>
       <updated>1390455285534</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="program tested for + operator">
+      <created>1390455319841</created>
+      <updated>1390455319841</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -521,7 +526,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32986626" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32986626" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -544,7 +549,8 @@
     <MESSAGE value="Initial commit&#10;" />
     <MESSAGE value="setup completed&#10;" />
     <MESSAGE value="program working from main" />
-    <option name="LAST_COMMIT_MESSAGE" value="program working from main" />
+    <MESSAGE value="program tested for + operator" />
+    <option name="LAST_COMMIT_MESSAGE" value="program tested for + operator" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -655,7 +661,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Tests/exprEvalTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="526" selection-end="526" vertical-scroll-proportion="0.84" vertical-offset="0" max-vertical-offset="459">
+        <state line="27" column="1" selection-start="836" selection-end="836" vertical-scroll-proportion="0.96" vertical-offset="51" max-vertical-offset="595">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
