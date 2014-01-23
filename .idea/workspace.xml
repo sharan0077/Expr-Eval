@@ -2,6 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c391bb66-66e5-4c4e-a8e9-be494fac2de8" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExprEval-Dist/lib/ExprEval.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/evaluator-0.1.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExprEval-Dist/bib/ExprEval_GS.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ShellFiles/ExprEval_GS.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExprEval-Dist/ReadMe.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/travis.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Expr-Eval.iws" />
@@ -105,10 +111,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="exprEvalMain.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="exprEvalMain.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cli/exprEvalMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="0" selection-start="272" selection-end="272" vertical-scroll-proportion="0.48" vertical-offset="0" max-vertical-offset="425">
+            <state line="12" column="0" selection-start="272" selection-end="272" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="travis.yml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/travis.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="0" selection-start="29" selection-end="29" vertical-scroll-proportion="0.085" vertical-offset="0" max-vertical-offset="400">
               <folding />
             </state>
           </provider>
@@ -152,6 +167,7 @@
         <option value="$PROJECT_DIR$/src/cli/exprEvalMain.java" />
         <option value="$PROJECT_DIR$/Tests/exprEvalTest.java" />
         <option value="$PROJECT_DIR$/build.xml" />
+        <option value="$PROJECT_DIR$/travis.yml" />
       </list>
     </option>
   </component>
@@ -513,7 +529,11 @@
       <created>1390459243262</created>
       <updated>1390459243262</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="program tested for divideby operator&#10;">
+      <created>1390459284114</created>
+      <updated>1390459284114</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -661,13 +681,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ExprEval/evalExpr.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="648" selection-end="648" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="58" column="10" selection-start="1986" selection-end="1986" vertical-scroll-proportion="0.0" vertical-offset="595" max-vertical-offset="1088">
@@ -677,7 +690,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cli/exprEvalMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="272" selection-end="272" vertical-scroll-proportion="0.48" vertical-offset="0" max-vertical-offset="425">
+        <state line="12" column="0" selection-start="272" selection-end="272" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ExprEval/evalExpr.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="648" selection-end="648" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="29" selection-end="29" vertical-scroll-proportion="0.085" vertical-offset="0" max-vertical-offset="400">
           <folding />
         </state>
       </provider>
