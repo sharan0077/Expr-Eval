@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c391bb66-66e5-4c4e-a8e9-be494fac2de8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.xml" afterPath="$PROJECT_DIR$/build.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Expr-Eval.iws" />
@@ -510,7 +509,11 @@
       <created>1390455533027</created>
       <updated>1390455533027</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="program tested for divideby operator&#10;">
+      <created>1390459243262</created>
+      <updated>1390459243262</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -560,7 +563,8 @@
     <MESSAGE value="program tested for + operator" />
     <MESSAGE value="program tested for minus operator" />
     <MESSAGE value="program tested for divideby operator" />
-    <option name="LAST_COMMIT_MESSAGE" value="program tested for divideby operator" />
+    <MESSAGE value="program tested for divideby operator&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="program tested for divideby operator&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
