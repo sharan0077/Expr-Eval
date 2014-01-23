@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c391bb66-66e5-4c4e-a8e9-be494fac2de8" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/evaluator-0.3.zip" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\expression-evaluator\ExprEval-Dist\lib\ExprEval.jar" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ReadMe.md" afterPath="$PROJECT_DIR$/ReadMe.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ExprEval-Dist/ReadMe.md" afterPath="$PROJECT_DIR$/ExprEval-Dist/ReadMe.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.xml" afterPath="$PROJECT_DIR$/build.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ExprEval/evalExpr.java" afterPath="$PROJECT_DIR$/src/ExprEval/evalExpr.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tests/exprEvalTest.java" afterPath="$PROJECT_DIR$/Tests/exprEvalTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Expr-Eval.iws" />
@@ -81,7 +83,7 @@
       <file leaf-file-name="build.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="41" selection-start="41" selection-end="41" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1088">
+            <state line="38" column="61" selection-start="1351" selection-end="1351" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="1088">
               <folding />
             </state>
           </provider>
@@ -93,7 +95,7 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="24" selection-start="640" selection-end="640" vertical-scroll-proportion="-15.64" vertical-offset="0" max-vertical-offset="612">
+            <state line="43" column="22" selection-start="1453" selection-end="1453" vertical-scroll-proportion="-13.96" vertical-offset="382" max-vertical-offset="850">
               <folding />
             </state>
           </provider>
@@ -108,19 +110,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="evalExpr.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="evalExpr.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ExprEval/evalExpr.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="72" column="1" selection-start="2394" selection-end="2394" vertical-scroll-proportion="0.0" vertical-offset="850" max-vertical-offset="1343">
+            <state line="72" column="1" selection-start="2394" selection-end="2394" vertical-scroll-proportion="0.88" vertical-offset="850" max-vertical-offset="1343">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="exprEvalTest.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="exprEvalTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tests/exprEvalTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="93" column="0" selection-start="3330" selection-end="3330" vertical-scroll-proportion="0.88" vertical-offset="1156" max-vertical-offset="1649">
+            <state line="94" column="0" selection-start="3331" selection-end="3331" vertical-scroll-proportion="0.0" vertical-offset="1156" max-vertical-offset="1649">
               <folding />
             </state>
           </provider>
@@ -152,10 +154,10 @@
         <option value="$PROJECT_DIR$/src/cli/exprEvalMain.java" />
         <option value="$PROJECT_DIR$/travis.yml" />
         <option value="$PROJECT_DIR$/ShellFiles/ExprEval_GS.sh" />
-        <option value="$PROJECT_DIR$/ReadMe.md" />
-        <option value="$PROJECT_DIR$/build.xml" />
         <option value="$PROJECT_DIR$/src/ExprEval/evalExpr.java" />
         <option value="$PROJECT_DIR$/Tests/exprEvalTest.java" />
+        <option value="$PROJECT_DIR$/build.xml" />
+        <option value="$PROJECT_DIR$/ReadMe.md" />
       </list>
     </option>
   </component>
@@ -219,70 +221,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Expr-Eval" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="expression-evaluator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ExprEval" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Expr-Eval" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="expression-evaluator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cli" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Expr-Eval" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="expression-evaluator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ShellFiles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Expr-Eval" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="expression-evaluator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="lib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -297,25 +235,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ExprEval-Dist" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Expr-Eval" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="expression-evaluator" />
+              <option name="myItemId" value="build" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ExprEval-Dist" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
+              <option name="myItemId" value="classes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -686,7 +610,11 @@
       <created>1390474740010</created>
       <updated>1390474740010</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="program is able to handle spaces&#10;program not able to handle spaces but can handle multiple brackets">
+      <created>1390482200005</created>
+      <updated>1390482200005</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -744,7 +672,8 @@
     <MESSAGE value="program working with combination of multiple operators and operands" />
     <MESSAGE value="program working with single pair brackets" />
     <MESSAGE value="program is able to handle spaces" />
-    <option name="LAST_COMMIT_MESSAGE" value="program is able to handle spaces" />
+    <MESSAGE value="program is able to handle spaces&#10;program not able to handle spaces but can handle multiple brackets" />
+    <option name="LAST_COMMIT_MESSAGE" value="program is able to handle spaces&#10;program not able to handle spaces but can handle multiple brackets" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -872,19 +801,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ReadMe.md">
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/ShellFiles/ExprEval_GS.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="24" selection-start="640" selection-end="640" vertical-scroll-proportion="-15.64" vertical-offset="0" max-vertical-offset="612">
+        <state line="0" column="23" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="622">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ShellFiles/ExprEval_GS.sh">
+    <entry file="file://$PROJECT_DIR$/build.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="23" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="622">
+        <state line="38" column="61" selection-start="1351" selection-end="1351" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="1088">
           <folding />
         </state>
       </provider>
@@ -896,23 +822,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="41" selection-start="41" selection-end="41" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1088">
-          <folding />
-        </state>
+    <entry file="file://$PROJECT_DIR$/ReadMe.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ExprEval/evalExpr.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="1" selection-start="2394" selection-end="2394" vertical-scroll-proportion="0.0" vertical-offset="850" max-vertical-offset="1343">
+        <state line="43" column="22" selection-start="1453" selection-end="1453" vertical-scroll-proportion="-13.96" vertical-offset="382" max-vertical-offset="850">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Tests/exprEvalTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="93" column="0" selection-start="3330" selection-end="3330" vertical-scroll-proportion="0.88" vertical-offset="1156" max-vertical-offset="1649">
+        <state line="94" column="0" selection-start="3331" selection-end="3331" vertical-scroll-proportion="0.0" vertical-offset="1156" max-vertical-offset="1649">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ExprEval/evalExpr.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="72" column="1" selection-start="2394" selection-end="2394" vertical-scroll-proportion="0.88" vertical-offset="850" max-vertical-offset="1343">
           <folding />
         </state>
       </provider>

@@ -36,7 +36,7 @@
     <target name="createJar" depends="runTest">
         <mkdir dir="ExprEval-Dist/lib"></mkdir>
         <mkdir dir="ExprEval-Dist/bin"></mkdir>
-        <jar destfile="ExprEval-Dist/lib/ExprEval.jar" basedir="build/classes"></jar>
+        <jar destfile="ExprEval-Dist/lib/expression-evaluator.jar" basedir="build/classes"></jar>
     </target>
 
     <target name="copyScripts" depends="createJar">
