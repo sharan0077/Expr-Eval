@@ -67,5 +67,23 @@ public class exprEvalTest {
         int actual = evaluateExpression.evaluate(input);
         assertEquals(expected,actual);
     }
+
+    @Test
+    public void testShouldEvaluateExpressionWhenThereIsSpaceInExpression(){
+        String input = "2 + 4";
+        int expected = 6;
+        evalExpr evaluateExpression = new evalExpr();
+        int actual = evaluateExpression.evaluate(input);
+        assertEquals(expected,actual);
+    }
+
+    @Test
+    public void testShouldEvaluateExpressionWhenThereIsSpaceInExpressionWithBracketsEnclosed(){
+        String input = " ( 2 + 4 - 2 )";
+        int expected = 4;
+        evalExpr evaluateExpression = new evalExpr();
+        int actual = evaluateExpression.evaluate(input);
+        assertEquals(expected,actual);
+    }
 }
 

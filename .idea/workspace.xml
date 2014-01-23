@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c391bb66-66e5-4c4e-a8e9-be494fac2de8" name="Default" comment="">
-      <change type="DELETED" beforePath="D:\projects\Expr-Eval\ExprEval-Dist\bib\ExprEval_GS.sh" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\Expr-Eval\evaluator-0.1.zip" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ExprEval-Dist/lib/ExprEval.jar" afterPath="$PROJECT_DIR$/ExprEval-Dist/lib/ExprEval.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ShellFiles/ExprEval_GS.sh" afterPath="$PROJECT_DIR$/ShellFiles/ExprEval_GS.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ExprEval-Dist/ReadMe.md" afterPath="$PROJECT_DIR$/ExprEval-Dist/ReadMe.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.xml" afterPath="$PROJECT_DIR$/build.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ExprEval/evalExpr.java" afterPath="$PROJECT_DIR$/src/ExprEval/evalExpr.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/evaluator-0.2.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExprEval-Dist/bin/ExprEval_GS.sh" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tests/exprEvalTest.java" afterPath="$PROJECT_DIR$/Tests/exprEvalTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -134,7 +129,7 @@
       <file leaf-file-name="exprEvalTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Tests/exprEvalTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="69" column="1" selection-start="2379" selection-end="2379" vertical-scroll-proportion="0.92" vertical-offset="782" max-vertical-offset="1309">
+            <state line="87" column="1" selection-start="3010" selection-end="3010" vertical-scroll-proportion="0.96" vertical-offset="1071" max-vertical-offset="1615">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -170,8 +165,8 @@
         <option value="$PROJECT_DIR$/travis.yml" />
         <option value="$PROJECT_DIR$/build.xml" />
         <option value="$PROJECT_DIR$/ShellFiles/ExprEval_GS.sh" />
-        <option value="$PROJECT_DIR$/Tests/exprEvalTest.java" />
         <option value="$PROJECT_DIR$/src/ExprEval/evalExpr.java" />
+        <option value="$PROJECT_DIR$/Tests/exprEvalTest.java" />
       </list>
     </option>
   </component>
@@ -611,7 +606,11 @@
       <created>1390468219226</created>
       <updated>1390468219226</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="program working with single pair brackets">
+      <created>1390474492426</created>
+      <updated>1390474492426</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -692,7 +691,8 @@
     <MESSAGE value="program able to evaluate expression with multiple operators" />
     <MESSAGE value="travis file modified" />
     <MESSAGE value="program working with combination of multiple operators and operands" />
-    <option name="LAST_COMMIT_MESSAGE" value="program working with combination of multiple operators and operands" />
+    <MESSAGE value="program working with single pair brackets" />
+    <option name="LAST_COMMIT_MESSAGE" value="program working with single pair brackets" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -810,7 +810,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Tests/exprEvalTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="1" selection-start="2379" selection-end="2379" vertical-scroll-proportion="0.92" vertical-offset="782" max-vertical-offset="1309">
+        <state line="87" column="1" selection-start="3010" selection-end="3010" vertical-scroll-proportion="0.96" vertical-offset="1071" max-vertical-offset="1615">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
