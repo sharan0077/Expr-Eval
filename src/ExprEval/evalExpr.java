@@ -1,34 +1,50 @@
 package ExprEval;
 
+import sun.org.mozilla.javascript.internal.ast.SwitchCase;
+
 import java.util.ArrayList;
 
 public class evalExpr {
 
     public boolean isOperator(String element){
-        if( element.equals('+') || element.equals('-') || element.equals('*') ||
-                element.equals('/') )
+        if( element.equals("+") || element.equals("-") || element.equals("*") ||
+                element.equals("/") )
             return true;
         return false;
     }
 
     public int evaluate(String exp){
 
+        int result;
         String[] expressionElements = exp.split(" ");
-        String operator = expressionElements[1];
-        int operand1 = Integer.parseInt(expressionElements[0]) , operand2 = Integer.parseInt(expressionElements[2]);
-        int result = performOperation(operator,operand1,operand2);
+        ArrayList<String> operators = new ArrayList();
+        ArrayList<Integer> operands = new ArrayList();
+
+        for (String expressionElement : expressionElements) {
+            if ( isOperator(expressionElement) )
+                operators.add(expressionElement);
+            else
+                operands.add( Integer.parseInt(expressionElement) );
+        }
+
+        result = performOperation(operators,operands);
         return result;
 
     }
 
-    public int performOperation(String operator,int operand1,int operand2){
-        if(operator.equals("+"))
-            return operand1 + operand2;
-        if(operator.equals("-"))
-            return operand1 - operand2;
-        if(operator.equals("*"))
-            return operand1 * operand2;
-        return operand1 / operand2;
+    public int performOperation(ArrayList<String> operators,ArrayList<Integer> operands){
+        int result = operands.get(0) , i = 0;
+        for (String operator : operators) {
+            switch(operator.charAt(0)){
+
+                case '+' : result = result + operands.get(++i); break;
+                case '-' : result = result - operands.get(++i); break;
+                case '*' : result = result * operands.get(++i); break;
+                case '/' : result = result / operands.get(++i); break;
+
+            }
+        }
+        return result;
     }
 
 }

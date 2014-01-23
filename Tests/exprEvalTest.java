@@ -41,5 +41,13 @@ public class exprEvalTest {
         int actual = evaluateExpression.evaluate(input);
         assertEquals(expected,actual);
    }
+   @Test
+   public void testShouldEvaluateExpressionThatContainsMultipleOperatorsAndOperands(){
+       String input = "4 + 4 - 8";
+       int expected = 0;
+       evalExpr evaluateExpression = new evalExpr();
+       int actual = evaluateExpression.evaluate(input);
+       assertEquals(expected,actual);
+   }
 }
 

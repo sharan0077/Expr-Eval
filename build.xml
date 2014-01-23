@@ -54,6 +54,6 @@
     <target name="clean">
         <delete dir="build/"></delete>
         <delete dir="ExprEval-Dist"></delete>
-        <delete dir="evaluator-0.0.zip"></delete>
+        <delete dir="evaluator-0.1.zip"></delete>
     </target>
 </project>
