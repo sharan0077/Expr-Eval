@@ -127,7 +127,7 @@
       <file leaf-file-name="exprEvalTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Tests/exprEvalTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="1" selection-start="836" selection-end="836" vertical-scroll-proportion="0.96" vertical-offset="51" max-vertical-offset="595">
+            <state line="44" column="0" selection-start="1461" selection-end="1461" vertical-scroll-proportion="0.92" vertical-offset="357" max-vertical-offset="867">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -502,7 +502,11 @@
       <created>1390455319841</created>
       <updated>1390455319841</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="program tested for minus operator">
+      <created>1390455399255</created>
+      <updated>1390455399255</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -550,7 +554,8 @@
     <MESSAGE value="setup completed&#10;" />
     <MESSAGE value="program working from main" />
     <MESSAGE value="program tested for + operator" />
-    <option name="LAST_COMMIT_MESSAGE" value="program tested for + operator" />
+    <MESSAGE value="program tested for minus operator" />
+    <option name="LAST_COMMIT_MESSAGE" value="program tested for minus operator" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -661,7 +666,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Tests/exprEvalTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="1" selection-start="836" selection-end="836" vertical-scroll-proportion="0.96" vertical-offset="51" max-vertical-offset="595">
+        <state line="44" column="0" selection-start="1461" selection-end="1461" vertical-scroll-proportion="0.92" vertical-offset="357" max-vertical-offset="867">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

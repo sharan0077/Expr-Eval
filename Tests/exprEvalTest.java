@@ -25,5 +25,21 @@ public class exprEvalTest {
         int actual = evaluateExpression.evaluate(input);
         assertEquals(expected,actual);
     }
+    @Test
+    public void testShouldEvaluateExpressionThatContainsIntoOperatorAndTwoOperands(){
+        String input = "4 * 3";
+        int expected = 12;
+        evalExpr evaluateExpression = new evalExpr();
+        int actual = evaluateExpression.evaluate(input);
+        assertEquals(expected,actual);
+    }
+    @Test
+    public void testShouldEvaluateExpressionThatContainsDivideByOperatorAndTwoOperands(){
+        String input = "4 / 4";
+        int expected = 1;
+        evalExpr evaluateExpression = new evalExpr();
+        int actual = evaluateExpression.evaluate(input);
+        assertEquals(expected,actual);
+   }
 }
 
