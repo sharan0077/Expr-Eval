@@ -48,7 +48,7 @@
     </target>
 
     <target name="dist" depends="copyReadMe">
-        <zip zipfile="evaluator-0.0.zip" basedir="ExprEval-Dist"></zip>
+        <zip zipfile="evaluator-0.1.zip" basedir="ExprEval-Dist"></zip>
     </target>
 
     <target name="clean">

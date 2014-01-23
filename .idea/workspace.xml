@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c391bb66-66e5-4c4e-a8e9-be494fac2de8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tests/exprEvalTest.java" afterPath="$PROJECT_DIR$/Tests/exprEvalTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.xml" afterPath="$PROJECT_DIR$/build.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Expr-Eval.iws" />
@@ -79,7 +79,7 @@
       <file leaf-file-name="build.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="10" selection-start="1986" selection-end="1986" vertical-scroll-proportion="0.0" vertical-offset="441" max-vertical-offset="1088">
+            <state line="58" column="10" selection-start="1986" selection-end="1986" vertical-scroll-proportion="0.0" vertical-offset="595" max-vertical-offset="1088">
               <folding />
             </state>
           </provider>
@@ -106,10 +106,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="exprEvalMain.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="exprEvalMain.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/cli/exprEvalMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="41" selection-end="41" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+            <state line="12" column="0" selection-start="272" selection-end="272" vertical-scroll-proportion="0.48" vertical-offset="0" max-vertical-offset="425">
               <folding />
             </state>
           </provider>
@@ -118,16 +118,16 @@
       <file leaf-file-name="evalExpr.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ExprEval/evalExpr.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="4" selection-start="646" selection-end="646" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="680">
+            <state line="22" column="0" selection-start="648" selection-end="648" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="exprEvalTest.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="exprEvalTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tests/exprEvalTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="0" selection-start="1461" selection-end="1461" vertical-scroll-proportion="0.92" vertical-offset="357" max-vertical-offset="867">
+            <state line="42" column="4" selection-start="1458" selection-end="1458" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="867">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -149,10 +149,10 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/build.xml" />
         <option value="$PROJECT_DIR$/src/ExprEval/evalExpr.java" />
         <option value="$PROJECT_DIR$/src/cli/exprEvalMain.java" />
         <option value="$PROJECT_DIR$/Tests/exprEvalTest.java" />
+        <option value="$PROJECT_DIR$/build.xml" />
       </list>
     </option>
   </component>
@@ -506,7 +506,11 @@
       <created>1390455399255</created>
       <updated>1390455399255</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="program tested for divideby operator">
+      <created>1390455533027</created>
+      <updated>1390455533027</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -530,7 +534,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32986626" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32986626" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -555,7 +559,8 @@
     <MESSAGE value="program working from main" />
     <MESSAGE value="program tested for + operator" />
     <MESSAGE value="program tested for minus operator" />
-    <option name="LAST_COMMIT_MESSAGE" value="program tested for minus operator" />
+    <MESSAGE value="program tested for divideby operator" />
+    <option name="LAST_COMMIT_MESSAGE" value="program tested for divideby operator" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -643,33 +648,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/exprEvalTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="4" selection-start="1458" selection-end="1458" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="867">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ExprEval/evalExpr.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="648" selection-end="648" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/build.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="10" selection-start="1986" selection-end="1986" vertical-scroll-proportion="0.0" vertical-offset="441" max-vertical-offset="1088">
+        <state line="58" column="10" selection-start="1986" selection-end="1986" vertical-scroll-proportion="0.0" vertical-offset="595" max-vertical-offset="1088">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cli/exprEvalMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="41" selection-end="41" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+        <state line="12" column="0" selection-start="272" selection-end="272" vertical-scroll-proportion="0.48" vertical-offset="0" max-vertical-offset="425">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ExprEval/evalExpr.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="4" selection-start="646" selection-end="646" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="680">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/exprEvalTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="0" selection-start="1461" selection-end="1461" vertical-scroll-proportion="0.92" vertical-offset="357" max-vertical-offset="867">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
