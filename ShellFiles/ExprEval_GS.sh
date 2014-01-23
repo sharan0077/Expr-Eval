@@ -1,1 +1,1 @@
-java -cp $EVALUATOR_HOME/lib/ExprEval.jar cli.exprEvalMain "${@}" 
+java -cp $EVALUATOR_HOMrE/lib/ExprEval.jar cli.exprEvalMain "${@}"
