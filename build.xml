@@ -1,4 +1,4 @@
-<project name="Expr-Eval">
+<project name="Expr-Eval" default="dist">
 
     <target name="createDist">
         <mkdir dir="build"></mkdir>

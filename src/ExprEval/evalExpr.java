@@ -17,18 +17,21 @@ public class evalExpr {
 
         int result;
         boolean operatorPresent;
-        String expression = exp.replaceAll(" +","");
-        String[] expressionElements = expression.split("");
+        String expression = exp;
+        String[] expressionElements;
         ArrayList<String> operators = new ArrayList();
         ArrayList<Integer> operands = new ArrayList();
-        String modifiedString;
+        String modifiedString , stringToBeReplaced;
 
         for(int i = 0 ; i < expression.length() ; i++){
             if(expression.charAt(i) == '('){
                 modifiedString =  getModifiedString(expression,i);
-                return evaluate(modifiedString);
+                stringToBeReplaced = String.valueOf(evaluate(modifiedString.substring(1,modifiedString.length()-1)));
+                expression = expression.replace(modifiedString,stringToBeReplaced);
+                return evaluate(expression);
             }
         }
+        expressionElements = expression.split(" ");
         for (String expressionElement : expressionElements) {
             operatorPresent = isOperator(expressionElement);
             if ( operatorPresent )
@@ -48,7 +51,7 @@ public class evalExpr {
             if(expr.charAt(i) == ')')
                 break;
         }
-        return expr.substring(indexOfOpeningBracket+1,i);
+        return expr.substring(indexOfOpeningBracket,i+1);
     }
 
     public int performOperation(ArrayList<String> operators,ArrayList<Integer> operands){
