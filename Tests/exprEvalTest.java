@@ -8,4 +8,14 @@ public class exprEvalTest {
     public void test_checking_tests(){
         assertEquals(1, 1);
     }
+
+    @Test
+    public void testShouldEvaluateExpressionThatContainsOneOperatorAndTwoOperands(){
+        String input = "3 + 4";
+        int expected = 7;
+        evalExpr evaluateExpression = new evalExpr();
+        int actual = evaluateExpression.evaluate(input);
+        assertEquals(expected,actual);
+    }
 }
+

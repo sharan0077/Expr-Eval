@@ -5,6 +5,8 @@ import ExprEval.evalExpr;
 
 public class exprEvalMain {
     public static void main(String[] args) {
-        System.out.println("main program of eval expr");
+        evalExpr evaluateExpression = new evalExpr();
+        int result = evaluateExpression.evaluate(args[0]);
+        System.out.println(result);
     }
 }
