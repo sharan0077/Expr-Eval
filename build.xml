@@ -35,12 +35,12 @@
 
     <target name="createJar" depends="runTest">
         <mkdir dir="ExprEval-Dist/lib"></mkdir>
-        <mkdir dir="ExprEval-Dist/bib"></mkdir>
+        <mkdir dir="ExprEval-Dist/bin"></mkdir>
         <jar destfile="ExprEval-Dist/lib/ExprEval.jar" basedir="build/classes"></jar>
     </target>
 
     <target name="copyScripts" depends="createJar">
-        <copy file="ShellFiles/ExprEval_GS.sh" todir="ExprEval-Dist/bib"></copy>
+        <copy file="ShellFiles/ExprEval_GS.sh" todir="ExprEval-Dist/bin"></copy>
     </target>
 
     <target name="copyReadMe" depends="copyScripts">
@@ -48,7 +48,7 @@
     </target>
 
     <target name="dist" depends="copyReadMe">
-        <zip zipfile="evaluator-0.1.zip" basedir="ExprEval-Dist"></zip>
+        <zip zipfile="evaluator-0.2.zip" basedir="ExprEval-Dist"></zip>
     </target>
 
     <target name="clean">

@@ -1,6 +1,5 @@
 package ExprEval;
 
-import sun.org.mozilla.javascript.internal.ast.SwitchCase;
 
 import java.util.ArrayList;
 
@@ -13,23 +12,43 @@ public class evalExpr {
         return false;
     }
 
+
     public int evaluate(String exp){
 
         int result;
-        String[] expressionElements = exp.split(" ");
+        boolean operatorPresent;
+        String expression = exp.replaceAll(" +","");
+        String[] expressionElements = expression.split("");
         ArrayList<String> operators = new ArrayList();
         ArrayList<Integer> operands = new ArrayList();
+        String modifiedString;
 
+        for(int i = 0 ; i < expression.length() ; i++){
+            if(expression.charAt(i) == '('){
+                modifiedString =  getModifiedString(expression,i);
+                return evaluate(modifiedString);
+            }
+        }
         for (String expressionElement : expressionElements) {
-            if ( isOperator(expressionElement) )
+            operatorPresent = isOperator(expressionElement);
+            if ( operatorPresent )
                 operators.add(expressionElement);
-            else
+            else if( !operatorPresent && !(expressionElement.equals("")) )
                 operands.add( Integer.parseInt(expressionElement) );
         }
 
         result = performOperation(operators,operands);
         return result;
 
+    }
+
+    public String getModifiedString(String expr,int indexOfOpeningBracket){
+        int i;
+        for(i = 0 ; i < expr.length() ; i++){
+            if(expr.charAt(i) == ')')
+                break;
+        }
+        return expr.substring(indexOfOpeningBracket+1,i);
     }
 
     public int performOperation(ArrayList<String> operators,ArrayList<Integer> operands){
@@ -46,5 +65,6 @@ public class evalExpr {
         }
         return result;
     }
+
 
 }
