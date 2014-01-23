@@ -1,4 +1,4 @@
-<project name="Expr-Eval" >
+<project name="Expr-Eval">
 
     <target name="createDist">
         <mkdir dir="build"></mkdir>
@@ -23,7 +23,7 @@
                 <pathelement location="build/classes/tests"/>
                 <pathelement location="lib/junit-4.10.jar"/>
             </classpath>
-            <batchtest >
+            <batchtest>
                 <fileset dir="build/classes/tests">
                     <include name="**/*Test*"/>
                 </fileset>
@@ -48,12 +48,12 @@
     </target>
 
     <target name="dist" depends="copyReadMe">
-        <zip zipfile="evaluator-0.2.zip" basedir="ExprEval-Dist"></zip>
+        <zip zipfile="evaluator-0.3.zip" basedir="ExprEval-Dist"></zip>
     </target>
 
     <target name="clean">
         <delete dir="build/"></delete>
         <delete dir="ExprEval-Dist"></delete>
-        <delete dir="evaluator-0.1.zip"></delete>
+        <delete dir="evaluator-0.2.zip"></delete>
     </target>
 </project>
