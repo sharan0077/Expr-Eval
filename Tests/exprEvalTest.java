@@ -55,7 +55,7 @@ public class exprEvalTest {
         double actual = evaluateExpression.evaluate(input);
         assertEquals(expected,actual);
     }
-//
+
     @Test
     public void testShouldEvaluateExpressionThatContainsMultiplePairBracketsWithOperatorsBeforeBrackets(){
         String input = "( 2 + 4) + ( 2 + 4 )";
@@ -132,6 +132,38 @@ public class exprEvalTest {
     public void testShouldEvaluateExpressionThatContainsDecimalNumberWithNestedBrackets(){
         String input = "( ( 2.0 + 3.0 ) + ( 5.0 + 2.0 ) + 8.0)";
         double expected = 20.0;
+        evalExpr evaluateExpression = new evalExpr();
+        double actual = evaluateExpression.evaluate(input);
+        assertEquals(expected,actual);
+    }
+    @Test
+    public void testShouldEvaluateExpressionThatContainsNegativeNumber(){
+        String input = "3 - -2";
+        double expected = 5.0;
+        evalExpr evaluateExpression = new evalExpr();
+        double actual = evaluateExpression.evaluate(input);
+        assertEquals(expected,actual);
+    }
+    @Test
+    public void testShouldEvaluateExpressionThatContainsNegativeNumberWithMulipleOperators(){
+        String input = "3 + -2 * -2";
+        double expected = -2.0;
+        evalExpr evaluateExpression = new evalExpr();
+        double actual = evaluateExpression.evaluate(input);
+        assertEquals(expected,actual);
+    }
+    @Test
+    public void testShouldEvaluateExpressionThatContainsNegativeNumberWithMulipleOperatorsWithBrackets(){
+        String input = "( ( 3 + -2 ) * ( -2 * -2 ) )";
+        double expected = 4.0;
+        evalExpr evaluateExpression = new evalExpr();
+        double actual = evaluateExpression.evaluate(input);
+        assertEquals(expected,actual);
+    }
+    @Test
+    public void testShouldEvaluateExpressionThatContainsNegativeDecimalNumberWithMulipleOperatorsWithBrackets(){
+        String input = "( ( 3.0 + -2.0 ) * ( -2.0 * -2.0 ) )";
+        double expected = 4.0;
         evalExpr evaluateExpression = new evalExpr();
         double actual = evaluateExpression.evaluate(input);
         assertEquals(expected,actual);
