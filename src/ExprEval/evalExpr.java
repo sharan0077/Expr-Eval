@@ -15,6 +15,7 @@ public class evalExpr {
 
     public double evaluate(String exp)throws Exception{
 
+
         double result;
         boolean operatorPresent;
         String expression = getModifiedString(exp);
@@ -23,9 +24,9 @@ public class evalExpr {
         ArrayList<Double> operands = new ArrayList();
 
         for(int i = 0 ; i < expression.length() ; i++){
-            if(expression.charAt(i) == '(')
+            if(expression.charAt(i) == '(' && i != expression.length()-1)
                 return evaluate(expression.substring(0,i) + evaluate(expression.substring(i+1,expression.length())));
-            if(expression.charAt(i) == ')')
+            if(expression.charAt(i) == ')' && i != 0)
                 return evaluate(expression.substring(0,i) + expression.substring(i+1,expression.length()));
         }
         expressionElements = expression.split(" ");
