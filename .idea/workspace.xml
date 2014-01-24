@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c391bb66-66e5-4c4e-a8e9-be494fac2de8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/dist/lib/expression-evaluator.jar" afterPath="$PROJECT_DIR$/build/dist/lib/expression-evaluator.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/dist/ReadMe.md" afterPath="$PROJECT_DIR$/build/dist/ReadMe.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.xml" afterPath="$PROJECT_DIR$/build.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ExprEval/evalExpr.java" afterPath="$PROJECT_DIR$/src/ExprEval/evalExpr.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cli/exprEvalMain.java" afterPath="$PROJECT_DIR$/src/cli/exprEvalMain.java" />
+      <change type="DELETED" beforePath="D:\projects\expression-evaluator\travis.yml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tests/exprEvalTest.java" afterPath="$PROJECT_DIR$/Tests/exprEvalTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="D:\projects\expression-evaluator\travis.yml" afterPath="$PROJECT_DIR$/.travis.yml" />
     </list>
     <ignored path="Expr-Eval.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -93,16 +90,16 @@
       <file leaf-file-name="evalExpr.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ExprEval/evalExpr.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="22" selection-start="396" selection-end="396" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1258">
+            <state line="56" column="65" selection-start="2185" selection-end="2185" vertical-scroll-proportion="0.0" vertical-offset="663" max-vertical-offset="1258">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="exprEvalTest.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="exprEvalTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tests/exprEvalTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="218" column="4" selection-start="9241" selection-end="9241" vertical-scroll-proportion="0.68" vertical-offset="3417" max-vertical-offset="3859">
+            <state line="221" column="29" selection-start="9409" selection-end="9409" vertical-scroll-proportion="0.0" vertical-offset="3434" max-vertical-offset="3978">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -119,10 +116,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="travis.yml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/travis.yml">
+      <file leaf-file-name=".travis.yml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="34" selection-end="34" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="136">
+            <state line="2" column="0" selection-start="34" selection-end="34" vertical-scroll-proportion="0.085" vertical-offset="0" max-vertical-offset="400">
               <folding />
             </state>
           </provider>
@@ -313,7 +310,7 @@
       <recent name="D:\projects\Expr-Eval\lib" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.exprEvalTest.testShouldEvaluateExpressionThatNoSpace">
+  <component name="RunManager" selected="JUnit.exprEvalTest.testShouldEvaluateExpressionThatgivesDecimalAnswerForIntDivision">
     <configuration default="false" name="exprEvalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Expr-Eval" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -322,28 +319,6 @@
       <option name="MAIN_CLASS_NAME" value="exprEvalTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="exprEvalTest.testShouldEvaluateExpressionThatContainsPowerOperatorWithMultipleOperands" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Expr-Eval" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="exprEvalTest" />
-      <option name="METHOD_NAME" value="testShouldEvaluateExpressionThatContainsPowerOperatorWithMultipleOperands" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -409,6 +384,28 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="exprEvalTest" />
       <option name="METHOD_NAME" value="testShouldEvaluateExpressionThatNoSpace" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="exprEvalTest.testShouldEvaluateExpressionThatgivesDecimalAnswerForIntDivision" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Expr-Eval" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="exprEvalTest" />
+      <option name="METHOD_NAME" value="testShouldEvaluateExpressionThatgivesDecimalAnswerForIntDivision" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -553,18 +550,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.exprEvalTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.exprEvalTest.testShouldEvaluateExpressionThatContainsPowerOperatorWithMultipleOperands" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.exprEvalTest.testShouldEvaluateExpressionThatNoSpaceAndHasMultipleNestedBrackets" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.exprEvalTest.testShouldEvaluateExpressionThatExtraWideSpacesWithBrackets" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.exprEvalTest.testShouldEvaluateExpressionThatNoSpace" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.exprEvalTest.testShouldEvaluateExpressionThatNoSpaceAndHasMultipleNestedBrackets" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.exprEvalTest.testShouldEvaluateExpressionThatExtraWideSpacesWithBrackets" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.exprEvalTest.testShouldEvaluateExpressionThatNoSpace" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.exprEvalTest.testShouldEvaluateExpressionThatgivesDecimalAnswerForIntDivision" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.exprEvalTest.testShouldEvaluateExpressionThatNoSpace" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.exprEvalTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.exprEvalTest.testShouldEvaluateExpressionThatExtraWideSpacesWithBrackets" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.exprEvalTest.testShouldEvaluateExpressionThatNoSpaceAndHasMultipleNestedBrackets" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.exprEvalTest.testShouldEvaluateExpressionThatContainsPowerOperatorWithMultipleOperands" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.exprEvalTest.testShouldEvaluateExpressionThatgivesDecimalAnswerForIntDivision" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.exprEvalTest.testShouldEvaluateExpressionThatNoSpace" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.exprEvalTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.exprEvalTest.testShouldEvaluateExpressionThatExtraWideSpacesWithBrackets" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.exprEvalTest.testShouldEvaluateExpressionThatNoSpaceAndHasMultipleNestedBrackets" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -700,7 +697,11 @@
       <created>1390544179382</created>
       <updated>1390544179382</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="program able to handle spaces">
+      <created>1390548655420</created>
+      <updated>1390548655421</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -769,7 +770,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Initial commit&#10;" />
     <MESSAGE value="setup completed&#10;" />
     <MESSAGE value="program working from main" />
     <MESSAGE value="program tested for + operator" />
@@ -794,7 +794,8 @@
     <MESSAGE value="program working with nested brackets with decimal numbers" />
     <MESSAGE value="program able to handle negative numbers as well as decimal numbers with brackets" />
     <MESSAGE value="program able to evaluate expression that contains power operator" />
-    <option name="LAST_COMMIT_MESSAGE" value="program able to evaluate expression that contains power operator" />
+    <MESSAGE value="program able to handle spaces" />
+    <option name="LAST_COMMIT_MESSAGE" value="program able to handle spaces" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -858,7 +859,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/travis.yml">
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="0" selection-start="34" selection-end="34" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="136">
           <folding />
@@ -916,7 +917,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/travis.yml">
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="0" selection-start="34" selection-end="34" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="136">
           <folding />
@@ -977,7 +978,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/travis.yml">
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="0" selection-start="34" selection-end="34" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="136">
           <folding />
@@ -1031,7 +1032,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/travis.yml">
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="0" selection-start="34" selection-end="34" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="136">
           <folding />
@@ -1092,13 +1093,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/travis.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="34" selection-end="34" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="136">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ReadMe.md">
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
@@ -1139,17 +1133,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ExprEval/evalExpr.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="22" selection-start="396" selection-end="396" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1258">
+        <state line="56" column="65" selection-start="2185" selection-end="2185" vertical-scroll-proportion="0.0" vertical-offset="663" max-vertical-offset="1258">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Tests/exprEvalTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="218" column="4" selection-start="9241" selection-end="9241" vertical-scroll-proportion="0.68" vertical-offset="3417" max-vertical-offset="3859">
+        <state line="221" column="29" selection-start="9409" selection-end="9409" vertical-scroll-proportion="0.0" vertical-offset="3434" max-vertical-offset="3978">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="34" selection-end="34" vertical-scroll-proportion="0.085" vertical-offset="0" max-vertical-offset="400">
+          <folding />
         </state>
       </provider>
     </entry>

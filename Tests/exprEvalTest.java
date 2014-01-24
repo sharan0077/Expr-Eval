@@ -216,6 +216,13 @@ public class exprEvalTest {
         double actual = evaluateExpression.evaluate(input);
         assertEquals(expected,actual);
     }
-
+    @Test
+    public void testShouldEvaluateExpressionThatgivesDecimalAnswerForIntDivision()throws Exception{
+        String input = "22 / 3";
+        double expected = 7.3;
+        evalExpr evaluateExpression = new evalExpr();
+        double actual = evaluateExpression.evaluate(input);
+        assertEquals(expected,actual);
+    }
 }
 
