@@ -33,6 +33,7 @@
     </target>
 
 
+
     <target name="createJar" depends="runTest">
         <mkdir dir="build/dist/lib"></mkdir>
         <mkdir dir="build/dist/bin"></mkdir>
@@ -48,7 +49,7 @@
     </target>
 
     <target name="dist" depends="copyReadMe">
-        <zip zipfile="evaluator-0.4.zip" basedir="build/dist"></zip>
+        <zip zipfile="evaluator-0.5.zip" basedir="build/dist"></zip>
     </target>
 
     <target name="clean">

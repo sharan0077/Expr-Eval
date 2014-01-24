@@ -42,3 +42,15 @@ Example :
         result : 6
     ExprEval_GS.sh "( 2 + 3) + 3"
             result : 8
+
+Release 0.5
+
+-> Will evaluate expression that has multiple nested brackets.
+-> Will evaluate expression that has multiple pair brackets.
+-> Will handle expression that has operators and operands outside the bracket also and returns the result.
+-> The operands should be of type int.
+-> The program cannot handle the expression without space.
+-> The supported operators are as follows : +,-,*,/.
+Example :
+    ExprEval_GS.sh "( 2 + 3) + ( 3 - 2)"
+        result : 6
