@@ -168,5 +168,21 @@ public class exprEvalTest {
         double actual = evaluateExpression.evaluate(input);
         assertEquals(expected,actual);
     }
+    @Test
+    public void testShouldEvaluateExpressionThatContainsPowerOperator(){
+        String input = "( 3 ^ 2)";
+        double expected = 9.0;
+        evalExpr evaluateExpression = new evalExpr();
+        double actual = evaluateExpression.evaluate(input);
+        assertEquals(expected,actual);
+    }
+    @Test
+    public void testShouldEvaluateExpressionThatContainsPowerOperatorWithMultipleOperands(){
+        String input = "( 3 ^ 2 ) + 5";
+        double expected = 14.0;
+        evalExpr evaluateExpression = new evalExpr();
+        double actual = evaluateExpression.evaluate(input);
+        assertEquals(expected,actual);
+    }
 }
 

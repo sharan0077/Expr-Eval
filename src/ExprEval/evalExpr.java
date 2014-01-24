@@ -7,7 +7,7 @@ public class evalExpr {
 
     public boolean isOperator(String element){
         if( element.equals("+") || element.equals("-") || element.equals("*") ||
-                element.equals("/") )
+                element.equals("/") || element.equals("^"))
             return true;
         return false;
     }
@@ -52,6 +52,7 @@ public class evalExpr {
                 case '-' : result = result - operands.get(++i); break;
                 case '*' : result = result * operands.get(++i); break;
                 case '/' : result = result / operands.get(++i); break;
+                case '^' : result = Math.pow(result,operands.get(++i)); break;
 
             }
         }

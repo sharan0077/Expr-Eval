@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c391bb66-66e5-4c4e-a8e9-be494fac2de8" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ExprEval/evalExpr.java" afterPath="$PROJECT_DIR$/src/ExprEval/evalExpr.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tests/exprEvalTest.java" afterPath="$PROJECT_DIR$/Tests/exprEvalTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -79,7 +80,7 @@
       <file leaf-file-name="evalExpr.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ExprEval/evalExpr.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="14" selection-start="350" selection-end="350" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1139">
+            <state line="57" column="9" selection-start="2102" selection-end="2102" vertical-scroll-proportion="0.0" vertical-offset="714" max-vertical-offset="1156">
               <folding />
             </state>
           </provider>
@@ -88,7 +89,7 @@
       <file leaf-file-name="exprEvalTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Tests/exprEvalTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="169" column="5" selection-start="6904" selection-end="6904" vertical-scroll-proportion="0.6165413" vertical-offset="2627" max-vertical-offset="3026">
+            <state line="188" column="0" selection-start="7550" selection-end="7550" vertical-scroll-proportion="0.77411765" vertical-offset="2867" max-vertical-offset="3298">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -132,8 +133,8 @@
         <option value="$PROJECT_DIR$/ShellFiles/ExprEval_GS.sh" />
         <option value="$PROJECT_DIR$/build.xml" />
         <option value="$PROJECT_DIR$/ReadMe.md" />
-        <option value="$PROJECT_DIR$/src/ExprEval/evalExpr.java" />
         <option value="$PROJECT_DIR$/src/cli/exprEvalMain.java" />
+        <option value="$PROJECT_DIR$/src/ExprEval/evalExpr.java" />
         <option value="$PROJECT_DIR$/Tests/exprEvalTest.java" />
       </list>
     </option>
@@ -307,7 +308,7 @@
       <recent name="D:\projects\Expr-Eval\lib" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.exprEvalTest">
+  <component name="RunManager" selected="JUnit.exprEvalTest.testShouldEvaluateExpressionThatContainsPowerOperatorWithMultipleOperands">
     <configuration default="false" name="exprEvalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Expr-Eval" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -316,50 +317,6 @@
       <option name="MAIN_CLASS_NAME" value="exprEvalTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="exprEvalTest.testShouldEvaluateExpressionThatContainsNestedBracketandOperatorsandOperandsOutside" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Expr-Eval" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="exprEvalTest" />
-      <option name="METHOD_NAME" value="testShouldEvaluateExpressionThatContainsNestedBracketandOperatorsandOperandsOutside" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="exprEvalTest.testShouldEvaluateExpressionThatContainsDecimalNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Expr-Eval" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="exprEvalTest" />
-      <option name="METHOD_NAME" value="testShouldEvaluateExpressionThatContainsDecimalNumber" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -403,6 +360,50 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="exprEvalTest" />
       <option name="METHOD_NAME" value="testShouldEvaluateExpressionThatContainsNegativeNumber" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="exprEvalTest.testShouldEvaluateExpressionThatContainsPowerOperator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Expr-Eval" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="exprEvalTest" />
+      <option name="METHOD_NAME" value="testShouldEvaluateExpressionThatContainsPowerOperator" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="exprEvalTest.testShouldEvaluateExpressionThatContainsPowerOperatorWithMultipleOperands" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Expr-Eval" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="exprEvalTest" />
+      <option name="METHOD_NAME" value="testShouldEvaluateExpressionThatContainsPowerOperatorWithMultipleOperands" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -547,18 +548,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.exprEvalTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.exprEvalTest.testShouldEvaluateExpressionThatContainsNestedBracketandOperatorsandOperandsOutside" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.exprEvalTest.testShouldEvaluateExpressionThatContainsDecimalNumber" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.exprEvalTest.testShouldEvaluateExpressionThatContainsDecimalNumberWithNestedBrackets" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.exprEvalTest.testShouldEvaluateExpressionThatContainsNegativeNumber" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.exprEvalTest.testShouldEvaluateExpressionThatContainsDecimalNumberWithNestedBrackets" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.exprEvalTest.testShouldEvaluateExpressionThatContainsNegativeNumber" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.exprEvalTest.testShouldEvaluateExpressionThatContainsPowerOperator" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.exprEvalTest.testShouldEvaluateExpressionThatContainsPowerOperatorWithMultipleOperands" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.exprEvalTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.exprEvalTest.testShouldEvaluateExpressionThatContainsNegativeNumber" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.exprEvalTest.testShouldEvaluateExpressionThatContainsDecimalNumberWithNestedBrackets" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.exprEvalTest.testShouldEvaluateExpressionThatContainsDecimalNumber" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.exprEvalTest.testShouldEvaluateExpressionThatContainsNestedBracketandOperatorsandOperandsOutside" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.exprEvalTest.testShouldEvaluateExpressionThatContainsPowerOperatorWithMultipleOperands" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.exprEvalTest.testShouldEvaluateExpressionThatContainsPowerOperator" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.exprEvalTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.exprEvalTest.testShouldEvaluateExpressionThatContainsNegativeNumber" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.exprEvalTest.testShouldEvaluateExpressionThatContainsDecimalNumberWithNestedBrackets" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -686,7 +687,11 @@
       <created>1390542896731</created>
       <updated>1390542896731</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="program able to handle negative numbers as well as decimal numbers with brackets">
+      <created>1390543401307</created>
+      <updated>1390543401307</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -778,7 +783,8 @@
     <MESSAGE value="program working for decimal number with multiple operators" />
     <MESSAGE value="program working with operators and operands outside bracket with decimal numberas" />
     <MESSAGE value="program working with nested brackets with decimal numbers" />
-    <option name="LAST_COMMIT_MESSAGE" value="program working with nested brackets with decimal numbers" />
+    <MESSAGE value="program able to handle negative numbers as well as decimal numbers with brackets" />
+    <option name="LAST_COMMIT_MESSAGE" value="program able to handle negative numbers as well as decimal numbers with brackets" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1123,14 +1129,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ExprEval/evalExpr.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="14" selection-start="350" selection-end="350" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1139">
+        <state line="57" column="9" selection-start="2102" selection-end="2102" vertical-scroll-proportion="0.0" vertical-offset="714" max-vertical-offset="1156">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Tests/exprEvalTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="169" column="5" selection-start="6904" selection-end="6904" vertical-scroll-proportion="0.6165413" vertical-offset="2627" max-vertical-offset="3026">
+        <state line="188" column="0" selection-start="7550" selection-end="7550" vertical-scroll-proportion="0.77411765" vertical-offset="2867" max-vertical-offset="3298">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
