@@ -1,6 +1,7 @@
 package ExprEval;
 
 
+import java.io.IOException;
 import java.util.ArrayList;
 
 public class evalExpr {
@@ -23,13 +24,23 @@ public class evalExpr {
         ArrayList<String> operators = new ArrayList();
         ArrayList<Double> operands = new ArrayList();
 
-        for(int i = 0 ; i < expression.length() ; i++){
-            if(expression.charAt(i) == '(' && i != expression.length()-1)
-                return evaluate(expression.substring(0,i) + evaluate(expression.substring(i+1,expression.length())));
-            if(expression.charAt(i) == ')' && i != 0)
-                return evaluate(expression.substring(0,i) + expression.substring(i+1,expression.length()));
-        }
+
+
         expressionElements = expression.split(" ");
+
+
+
+        if(expression.trim().charAt(0) == ')' || expression.trim().charAt(expression.length()-1) == '(' )
+             throw new IndexOutOfBoundsException();
+
+        for(int i = 0 ; i < expression.length() ; i++){
+            if(expression.charAt(i) == '(')
+                return evaluate(expression.substring(0,i) + evaluate(expression.substring(i+1,expression.length())));
+            if(expression.charAt(i) == ')'){
+                return evaluate(expression.substring(0,i) + expression.substring(i+1,expression.length()));
+            }
+        }
+
         for (String expressionElement : expressionElements) {
             operatorPresent = isOperator(expressionElement);
             if ( operatorPresent )

@@ -49,11 +49,11 @@
     </target>
 
     <target name="dist" depends="copyReadMe">
-        <zip zipfile="evaluator-0.72.zip" basedir="build/dist"></zip>
+        <zip zipfile="evaluator-0.73.zip" basedir="build/dist"></zip>
     </target>
 
     <target name="clean">
         <delete dir="build/"></delete>
-        <delete dir="evaluator-0.71.zip"></delete>
+        <delete dir="evaluator-0.72.zip"></delete>
     </target>
 </project>
