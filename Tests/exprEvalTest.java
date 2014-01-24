@@ -97,13 +97,28 @@ public class exprEvalTest {
         assertEquals(expected,actual);
     }
     @Test
-    public void testShouldEvaluateExpressionThatContainsDecimalNumberWithMultipleOperands(){
+    public void testShouldEvaluateExpressionThatContainsDecimalNumberWithMultipleOperators(){
         String input = "2.0 + 3.0 * 5.0";
         double expected = 25.0;
         evalExpr evaluateExpression = new evalExpr();
         double actual = evaluateExpression.evaluate(input);
         assertEquals(expected,actual);
     }
-
+    @Test
+    public void testShouldEvaluateExpressionThatContainsDecimalNumberWithMultipleOperatorsWithSinglePairBrackets(){
+        String input = "( 2.0 + 3.0 * 5.0 )";
+        double expected = 25.0;
+        evalExpr evaluateExpression = new evalExpr();
+        double actual = evaluateExpression.evaluate(input);
+        assertEquals(expected,actual);
+    }
+    @Test
+    public void testShouldEvaluateExpressionThatContainsDecimalNumberWithSinglePairBracketsAndOperatorsOutsideBrackets(){
+        String input = "( 2.0 + 3.0 * 5.0 ) + 2.0";
+        double expected = 27.0;
+        evalExpr evaluateExpression = new evalExpr();
+        double actual = evaluateExpression.evaluate(input);
+        assertEquals(expected,actual);
+    }
 }
 

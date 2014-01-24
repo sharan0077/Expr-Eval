@@ -88,7 +88,7 @@
       <file leaf-file-name="exprEvalTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Tests/exprEvalTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="109" column="0" selection-start="4084" selection-end="4084" vertical-scroll-proportion="0.84" vertical-offset="1445" max-vertical-offset="1904">
+            <state line="121" column="5" selection-start="4818" selection-end="4818" vertical-scroll-proportion="0.92" vertical-offset="1615" max-vertical-offset="2159">
               <folding />
             </state>
           </provider>
@@ -672,7 +672,11 @@
       <created>1390542250438</created>
       <updated>1390542250438</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="program working for decimal number with multiple operators">
+      <created>1390542430926</created>
+      <updated>1390542430926</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -761,7 +765,8 @@
     <MESSAGE value="few more test scenarious added" />
     <MESSAGE value="readme file updated" />
     <MESSAGE value="program working for decimal numbers for simple expression&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="program working for decimal numbers for simple expression&#10;" />
+    <MESSAGE value="program working for decimal number with multiple operators" />
+    <option name="LAST_COMMIT_MESSAGE" value="program working for decimal number with multiple operators" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1103,7 +1108,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Tests/exprEvalTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="109" column="0" selection-start="4084" selection-end="4084" vertical-scroll-proportion="0.84" vertical-offset="1445" max-vertical-offset="1904">
+        <state line="121" column="5" selection-start="4818" selection-end="4818" vertical-scroll-proportion="0.92" vertical-offset="1615" max-vertical-offset="2159">
           <folding />
         </state>
       </provider>
