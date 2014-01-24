@@ -96,5 +96,14 @@ public class exprEvalTest {
         double actual = evaluateExpression.evaluate(input);
         assertEquals(expected,actual);
     }
+    @Test
+    public void testShouldEvaluateExpressionThatContainsDecimalNumberWithMultipleOperands(){
+        String input = "2.0 + 3.0 * 5.0";
+        double expected = 25.0;
+        evalExpr evaluateExpression = new evalExpr();
+        double actual = evaluateExpression.evaluate(input);
+        assertEquals(expected,actual);
+    }
+
 }
 

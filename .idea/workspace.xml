@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c391bb66-66e5-4c4e-a8e9-be494fac2de8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ExprEval/evalExpr.java" afterPath="$PROJECT_DIR$/src/ExprEval/evalExpr.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cli/exprEvalMain.java" afterPath="$PROJECT_DIR$/src/cli/exprEvalMain.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tests/exprEvalTest.java" afterPath="$PROJECT_DIR$/Tests/exprEvalTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -90,7 +88,7 @@
       <file leaf-file-name="exprEvalTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Tests/exprEvalTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="93" column="27" selection-start="3581" selection-end="3581" vertical-scroll-proportion="0.76" vertical-offset="1207" max-vertical-offset="1751">
+            <state line="109" column="0" selection-start="4084" selection-end="4084" vertical-scroll-proportion="0.84" vertical-offset="1445" max-vertical-offset="1904">
               <folding />
             </state>
           </provider>
@@ -307,7 +305,7 @@
       <recent name="D:\projects\Expr-Eval\lib" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.exprEvalTest.testShouldEvaluateExpressionThatContainsDecimalNumber">
+  <component name="RunManager" selected="JUnit.exprEvalTest">
     <configuration default="false" name="exprEvalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Expr-Eval" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -554,8 +552,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.exprEvalTest.testShouldEvaluateExpressionThatContainsDecimalNumber" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.exprEvalTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.exprEvalTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.exprEvalTest.testShouldEvaluateExpressionThatContainsDecimalNumber" />
         <item index="2" class="java.lang.String" itemvalue="JUnit.exprEvalTest.testShouldEvaluateExpressionThatContainsNestedBracketandOperatorsandOperandsOutside" />
         <item index="3" class="java.lang.String" itemvalue="JUnit.exprEvalTest.testShouldEvaluateExpressionThatContainsMultiplePairBracketsWithOperatorsBeforeBrackets" />
         <item index="4" class="java.lang.String" itemvalue="JUnit.exprEvalTest.testShouldEvaluateExpressionThatContainsIntoOperatorAndTwoOperands" />
@@ -670,7 +668,11 @@
       <created>1390540938832</created>
       <updated>1390540938832</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="program working for decimal numbers for simple expression&#10;">
+      <created>1390542250438</created>
+      <updated>1390542250438</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -758,7 +760,8 @@
     <MESSAGE value="program able o handle multiple nested brackets" />
     <MESSAGE value="few more test scenarious added" />
     <MESSAGE value="readme file updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="readme file updated" />
+    <MESSAGE value="program working for decimal numbers for simple expression&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="program working for decimal numbers for simple expression&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1100,7 +1103,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Tests/exprEvalTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="93" column="27" selection-start="3581" selection-end="3581" vertical-scroll-proportion="0.76" vertical-offset="1207" max-vertical-offset="1751">
+        <state line="109" column="0" selection-start="4084" selection-end="4084" vertical-scroll-proportion="0.84" vertical-offset="1445" max-vertical-offset="1904">
           <folding />
         </state>
       </provider>
