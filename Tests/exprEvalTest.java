@@ -120,5 +120,21 @@ public class exprEvalTest {
         double actual = evaluateExpression.evaluate(input);
         assertEquals(expected,actual);
     }
+    @Test
+    public void testShouldEvaluateExpressionThatContainsDecimalNumberWithMultiplePairBrackets(){
+        String input = "( 2.0 + 3.0 ) + ( 5.0 + 2.0 )";
+        double expected = 12.0;
+        evalExpr evaluateExpression = new evalExpr();
+        double actual = evaluateExpression.evaluate(input);
+        assertEquals(expected,actual);
+    }
+    @Test
+    public void testShouldEvaluateExpressionThatContainsDecimalNumberWithNestedBrackets(){
+        String input = "( ( 2.0 + 3.0 ) + ( 5.0 + 2.0 ) + 8.0)";
+        double expected = 20.0;
+        evalExpr evaluateExpression = new evalExpr();
+        double actual = evaluateExpression.evaluate(input);
+        assertEquals(expected,actual);
+    }
 }
 

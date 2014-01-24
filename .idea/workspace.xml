@@ -88,7 +88,7 @@
       <file leaf-file-name="exprEvalTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Tests/exprEvalTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="121" column="5" selection-start="4818" selection-end="4818" vertical-scroll-proportion="0.92" vertical-offset="1615" max-vertical-offset="2159">
+            <state line="137" column="5" selection-start="5529" selection-end="5529" vertical-scroll-proportion="0.92" vertical-offset="1887" max-vertical-offset="2431">
               <folding />
             </state>
           </provider>
@@ -328,28 +328,6 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="exprEvalTest.testShouldEvaluateExpressionThatContainsIntoOperatorAndTwoOperands" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Expr-Eval" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="exprEvalTest" />
-      <option name="METHOD_NAME" value="testShouldEvaluateExpressionThatContainsIntoOperatorAndTwoOperands" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
     <configuration default="false" name="exprEvalTest.testShouldEvaluateExpressionThatContainsMultiplePairBracketsWithOperatorsBeforeBrackets" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Expr-Eval" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -401,6 +379,28 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="exprEvalTest" />
       <option name="METHOD_NAME" value="testShouldEvaluateExpressionThatContainsDecimalNumber" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="exprEvalTest.testShouldEvaluateExpressionThatContainsDecimalNumberWithNestedBrackets" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Expr-Eval" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="exprEvalTest" />
+      <option name="METHOD_NAME" value="testShouldEvaluateExpressionThatContainsDecimalNumberWithNestedBrackets" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -545,18 +545,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.exprEvalTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.exprEvalTest.testShouldEvaluateExpressionThatContainsIntoOperatorAndTwoOperands" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.exprEvalTest.testShouldEvaluateExpressionThatContainsMultiplePairBracketsWithOperatorsBeforeBrackets" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.exprEvalTest.testShouldEvaluateExpressionThatContainsNestedBracketandOperatorsandOperandsOutside" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.exprEvalTest.testShouldEvaluateExpressionThatContainsDecimalNumber" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.exprEvalTest.testShouldEvaluateExpressionThatContainsMultiplePairBracketsWithOperatorsBeforeBrackets" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.exprEvalTest.testShouldEvaluateExpressionThatContainsNestedBracketandOperatorsandOperandsOutside" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.exprEvalTest.testShouldEvaluateExpressionThatContainsDecimalNumber" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.exprEvalTest.testShouldEvaluateExpressionThatContainsDecimalNumberWithNestedBrackets" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="JUnit.exprEvalTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.exprEvalTest.testShouldEvaluateExpressionThatContainsDecimalNumber" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.exprEvalTest.testShouldEvaluateExpressionThatContainsNestedBracketandOperatorsandOperandsOutside" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.exprEvalTest.testShouldEvaluateExpressionThatContainsMultiplePairBracketsWithOperatorsBeforeBrackets" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.exprEvalTest.testShouldEvaluateExpressionThatContainsIntoOperatorAndTwoOperands" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.exprEvalTest.testShouldEvaluateExpressionThatContainsDecimalNumberWithNestedBrackets" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.exprEvalTest.testShouldEvaluateExpressionThatContainsDecimalNumber" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.exprEvalTest.testShouldEvaluateExpressionThatContainsNestedBracketandOperatorsandOperandsOutside" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.exprEvalTest.testShouldEvaluateExpressionThatContainsMultiplePairBracketsWithOperatorsBeforeBrackets" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -676,7 +676,11 @@
       <created>1390542430926</created>
       <updated>1390542430926</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="program working with operators and operands outside bracket with decimal numberas">
+      <created>1390542656886</created>
+      <updated>1390542656886</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -766,7 +770,8 @@
     <MESSAGE value="readme file updated" />
     <MESSAGE value="program working for decimal numbers for simple expression&#10;" />
     <MESSAGE value="program working for decimal number with multiple operators" />
-    <option name="LAST_COMMIT_MESSAGE" value="program working for decimal number with multiple operators" />
+    <MESSAGE value="program working with operators and operands outside bracket with decimal numberas" />
+    <option name="LAST_COMMIT_MESSAGE" value="program working with operators and operands outside bracket with decimal numberas" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1108,7 +1113,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Tests/exprEvalTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="121" column="5" selection-start="4818" selection-end="4818" vertical-scroll-proportion="0.92" vertical-offset="1615" max-vertical-offset="2159">
+        <state line="137" column="5" selection-start="5529" selection-end="5529" vertical-scroll-proportion="0.92" vertical-offset="1887" max-vertical-offset="2431">
           <folding />
         </state>
       </provider>
