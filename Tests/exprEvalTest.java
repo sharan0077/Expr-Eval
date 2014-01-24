@@ -8,41 +8,41 @@ public class exprEvalTest {
     @Test
     public void testShouldEvaluateExpressionThatContainsPlusOperatorAndTwoOperands(){
         String input = " 3 + 4";
-        int expected = 7;
+        double expected = 7.0;
         evalExpr evaluateExpression = new evalExpr();
-        int actual = evaluateExpression.evaluate(input);
+        double actual = evaluateExpression.evaluate(input);
         assertEquals(expected,actual);
     }
     @Test
     public void testShouldEvaluateExpressionThatContainsMinusOperatorAndTwoOperands(){
         String input = " 4 - 3 ";
-        int expected = 1;
+        double expected = 1.0;
         evalExpr evaluateExpression = new evalExpr();
-        int actual = evaluateExpression.evaluate(input);
+        double actual = evaluateExpression.evaluate(input);
         assertEquals(expected,actual);
     }
     @Test
     public void testShouldEvaluateExpressionThatContainsIntoOperatorAndTwoOperands(){
         String input = " 4 * 3";
-        int expected = 12 ;
+        double expected = 12.0 ;
         evalExpr evaluateExpression = new evalExpr();
-        int actual = evaluateExpression.evaluate(input);
+        double actual = evaluateExpression.evaluate(input);
         assertEquals(expected,actual);
     }
     @Test
     public void testShouldEvaluateExpressionThatContainsDivideByOperatorAndTwoOperands(){
         String input = "4 / 4";
-        int expected = 1;
+        double expected = 1.0;
         evalExpr evaluateExpression = new evalExpr();
-        int actual = evaluateExpression.evaluate(input);
+        double actual = evaluateExpression.evaluate(input);
         assertEquals(expected,actual);
    }
    @Test
    public void testShouldEvaluateExpressionThatContainsMultipleOperatorsAndOperands(){
        String input = "4 + 4 - 8";
-       int expected = 0;
+       double expected = 0.0;
        evalExpr evaluateExpression = new evalExpr();
-       int actual = evaluateExpression.evaluate(input);
+       double actual = evaluateExpression.evaluate(input);
        assertEquals(expected,actual);
    }
 
@@ -50,42 +50,50 @@ public class exprEvalTest {
     @Test
      public void testShouldEvaluateExpressionThatContainsSinglePairBracketsWithOperatorsBeforeBrackets(){
         String input = "2 + ( 2 + 4 )";
-        int expected = 8;
+        double expected = 8.0;
         evalExpr evaluateExpression = new evalExpr();
-        int actual = evaluateExpression.evaluate(input);
+        double actual = evaluateExpression.evaluate(input);
         assertEquals(expected,actual);
     }
-
+//
     @Test
     public void testShouldEvaluateExpressionThatContainsMultiplePairBracketsWithOperatorsBeforeBrackets(){
         String input = "( 2 + 4) + ( 2 + 4 )";
-        int expected = 12;
+        double expected = 12.0;
         evalExpr evaluateExpression = new evalExpr();
-        int actual = evaluateExpression.evaluate(input);
+        double actual = evaluateExpression.evaluate(input);
         assertEquals(expected,actual);
     }
     @Test
     public void testShouldEvaluateExpressionThatContainsNestedBrackets(){
         String input = "( 8 + ( 2 + 3 ) )";
-        int expected = 13;
+        double expected = 13.0;
         evalExpr evaluateExpression = new evalExpr();
-        int actual = evaluateExpression.evaluate(input);
+        double actual = evaluateExpression.evaluate(input);
         assertEquals(expected,actual);
     }
     @Test
      public void testShouldEvaluateExpressionThatContainsNestedBracket(){
         String input = "( ( 8 + 4 ) + ( 2 + 3 ) )";
-        int expected = 17;
+        double expected = 17.0;
         evalExpr evaluateExpression = new evalExpr();
-        int actual = evaluateExpression.evaluate(input);
+        double actual = evaluateExpression.evaluate(input);
         assertEquals(expected,actual);
     }
     @Test
     public void testShouldEvaluateExpressionThatContainsNestedBracketandOperatorsandOperandsOutside(){
         String input = "( ( 8 + 4 ) ) + 2 + 3  ";
-        int expected = 17;
+        double expected = 17.0;
         evalExpr evaluateExpression = new evalExpr();
-        int actual = evaluateExpression.evaluate(input);
+        double actual = evaluateExpression.evaluate(input);
+        assertEquals(expected,actual);
+    }
+    @Test
+    public void testShouldEvaluateExpressionThatContainsDecimalNumber(){
+        String input = "2.0 + 3.0";
+        double expected = 5.0;
+        evalExpr evaluateExpression = new evalExpr();
+        double actual = evaluateExpression.evaluate(input);
         assertEquals(expected,actual);
     }
 }

@@ -13,14 +13,14 @@ public class evalExpr {
     }
 
 
-    public int evaluate(String exp){
+    public double evaluate(String exp){
 
-        int result;
+        double result;
         boolean operatorPresent;
         String expression = exp;
         String[] expressionElements;
         ArrayList<String> operators = new ArrayList();
-        ArrayList<Integer> operands = new ArrayList();
+        ArrayList<Double> operands = new ArrayList();
 
         for(int i = 0 ; i < expression.length() ; i++){
             if(expression.charAt(i) == '(')
@@ -34,7 +34,7 @@ public class evalExpr {
             if ( operatorPresent )
                 operators.add(expressionElement);
             else if( !operatorPresent && !(expressionElement.equals("")) )
-                operands.add( Integer.parseInt(expressionElement) );
+                operands.add( Double.parseDouble(expressionElement) );
         }
 
         result = performOperation(operators,operands);
@@ -42,8 +42,9 @@ public class evalExpr {
 
     }
 
-    public int performOperation(ArrayList<String> operators,ArrayList<Integer> operands){
-        int result = operands.get(0) , i = 0;
+    public double performOperation(ArrayList<String> operators,ArrayList<Double> operands){
+        double result = operands.get(0) ;
+        int i = 0;
         for (String operator : operators) {
             switch(operator.charAt(0)){
 
