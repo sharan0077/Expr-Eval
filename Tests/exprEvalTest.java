@@ -46,46 +46,28 @@ public class exprEvalTest {
        assertEquals(expected,actual);
    }
 
-    @Test
-    public void testShouldEvaluateExpressionThatContainsMultipleOperatorAndOperands(){
-        String input = "2 + 4 / 2 + 8";
-        int expected = 11;
-        evalExpr evaluateExpression = new evalExpr();
-        int actual = evaluateExpression.evaluate(input);
-        assertEquals(expected,actual);
-    }
-
-    @Test
-    public void testShouldEvaluateExpressionThatContainsSinglePairBrackets(){
-        String input = "(2 + 4 / 2 + 8)";
-        int expected = 11;
-        evalExpr evaluateExpression = new evalExpr();
-        int actual = evaluateExpression.evaluate(input);
-        assertEquals(expected,actual);
-    }
-
-    @Test
-    public void testShouldEvaluateExpressionThatContainsMultiplePairBrackets(){
-        String input = "( 2 + 4 ) + ( 2 + 8 )";
-        int expected = 16;
-        evalExpr evaluateExpression = new evalExpr();
-        int actual = evaluateExpression.evaluate(input);
-        assertEquals(expected,actual);
-    }
-
-    @Test
-    public void testShouldEvaluateExpressionThatContainsSinglePairBracketsWithOperatorsOutsideBracketsAlso(){
-        String input = "( 2 + 4 ) * 2";
-        int expected = 12;
-        evalExpr evaluateExpression = new evalExpr();
-        int actual = evaluateExpression.evaluate(input);
-        assertEquals(expected,actual);
-    }
 
     @Test
     public void testShouldEvaluateExpressionThatContainsSinglePairBracketsWithOperatorsBeforeBrackets(){
         String input = "2 + ( 2 + 4 )";
         int expected = 8;
+        evalExpr evaluateExpression = new evalExpr();
+        int actual = evaluateExpression.evaluate(input);
+        assertEquals(expected,actual);
+    }
+
+    @Test
+    public void testShouldEvaluateExpressionThatContainsNestedBrackets(){
+        String input = "( 8 + ( 2 + 3 ) )";
+        int expected = 13;
+        evalExpr evaluateExpression = new evalExpr();
+        int actual = evaluateExpression.evaluate(input);
+        assertEquals(expected,actual);
+    }
+    @Test
+    public void testShouldEvaluateExpressionThatContainsNestedBracket(){
+        String input = "( ( 8 + 4 ) + ( 2 + 3 ) )";
+        int expected = 17;
         evalExpr evaluateExpression = new evalExpr();
         int actual = evaluateExpression.evaluate(input);
         assertEquals(expected,actual);

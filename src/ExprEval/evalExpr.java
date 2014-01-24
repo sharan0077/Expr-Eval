@@ -21,15 +21,12 @@ public class evalExpr {
         String[] expressionElements;
         ArrayList<String> operators = new ArrayList();
         ArrayList<Integer> operands = new ArrayList();
-        String modifiedString , stringToBeReplaced;
 
         for(int i = 0 ; i < expression.length() ; i++){
-            if(expression.charAt(i) == '('){
-                modifiedString =  getModifiedString(expression,i);
-                stringToBeReplaced = String.valueOf(evaluate(modifiedString.substring(1,modifiedString.length()-1)));
-                expression = expression.replace(modifiedString,stringToBeReplaced);
-                return evaluate(expression);
-            }
+            if(expression.charAt(i) == '(')
+                return evaluate(expression.substring(0,i) + evaluate(expression.substring(i+1,expression.length())));
+            if(expression.charAt(i) == ')')
+                return evaluate(expression.substring(0,i) + expression.substring(i+1,expression.length()));
         }
         expressionElements = expression.split(" ");
         for (String expressionElement : expressionElements) {
@@ -43,15 +40,6 @@ public class evalExpr {
         result = performOperation(operators,operands);
         return result;
 
-    }
-
-    public String getModifiedString(String expr,int indexOfOpeningBracket){
-        int i;
-        for(i = 0 ; i < expr.length() ; i++){
-            if(expr.charAt(i) == ')')
-                break;
-        }
-        return expr.substring(indexOfOpeningBracket,i+1);
     }
 
     public int performOperation(ArrayList<String> operators,ArrayList<Integer> operands){

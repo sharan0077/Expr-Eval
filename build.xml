@@ -34,26 +34,25 @@
 
 
     <target name="createJar" depends="runTest">
-        <mkdir dir="ExprEval-Dist/lib"></mkdir>
-        <mkdir dir="ExprEval-Dist/bin"></mkdir>
-        <jar destfile="ExprEval-Dist/lib/expression-evaluator.jar" basedir="build/classes"></jar>
+        <mkdir dir="build/dist/lib"></mkdir>
+        <mkdir dir="build/dist/bin"></mkdir>
+        <jar destfile="build/dist/lib/expression-evaluator.jar" basedir="build/classes"></jar>
     </target>
 
     <target name="copyScripts" depends="createJar">
-        <copy file="ShellFiles/ExprEval_GS.sh" todir="ExprEval-Dist/bin"></copy>
+        <copy file="ShellFiles/ExprEval_GS.sh" todir="build/dist/bin"></copy>
     </target>
 
     <target name="copyReadMe" depends="copyScripts">
-        <copy file="ReadMe.md" todir="ExprEval-Dist"></copy>
+        <copy file="ReadMe.md" todir="build/dist"></copy>
     </target>
 
     <target name="dist" depends="copyReadMe">
-        <zip zipfile="evaluator-0.3.zip" basedir="ExprEval-Dist"></zip>
+        <zip zipfile="evaluator-0.4.zip" basedir="build/dist"></zip>
     </target>
 
     <target name="clean">
         <delete dir="build/"></delete>
-        <delete dir="ExprEval-Dist"></delete>
-        <delete dir="evaluator-0.2.zip"></delete>
+        <delete dir="evaluator-0.4.zip"></delete>
     </target>
 </project>
