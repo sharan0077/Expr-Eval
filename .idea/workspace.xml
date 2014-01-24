@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c391bb66-66e5-4c4e-a8e9-be494fac2de8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/evaluator-0.4.zip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/dist/lib/expression-evaluator.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/dist/bin/ExprEval_GS.sh" />
-      <change type="DELETED" beforePath="D:\projects\expression-evaluator\ExprEval-Dist\bin\ExprEval_GS.sh" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\expression-evaluator\evaluator-0.3.zip" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ShellFiles/ExprEval_GS.sh" afterPath="$PROJECT_DIR$/ShellFiles/ExprEval_GS.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.xml" afterPath="$PROJECT_DIR$/build.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ExprEval/evalExpr.java" afterPath="$PROJECT_DIR$/src/ExprEval/evalExpr.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tests/exprEvalTest.java" afterPath="$PROJECT_DIR$/Tests/exprEvalTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="D:\projects\expression-evaluator\ExprEval-Dist\ReadMe.md" afterPath="$PROJECT_DIR$/build/dist/ReadMe.md" />
     </list>
     <ignored path="Expr-Eval.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -115,19 +106,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="evalExpr.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="evalExpr.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ExprEval/evalExpr.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="107" selection-start="936" selection-end="936" vertical-scroll-proportion="-0.04" vertical-offset="493" max-vertical-offset="1122">
+            <state line="49" column="70" selection-start="1739" selection-end="1739" vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="1122">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="exprEvalTest.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="exprEvalTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Tests/exprEvalTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="27" selection-start="911" selection-end="911" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="1343">
+            <state line="88" column="38" selection-start="3346" selection-end="3346" vertical-scroll-proportion="3.4" vertical-offset="0" max-vertical-offset="1615">
               <folding />
             </state>
           </provider>
@@ -170,8 +161,8 @@
         <option value="$PROJECT_DIR$/ReadMe.md" />
         <option value="$PROJECT_DIR$/ShellFiles/ExprEval_GS.sh" />
         <option value="$PROJECT_DIR$/build.xml" />
-        <option value="$PROJECT_DIR$/Tests/exprEvalTest.java" />
         <option value="$PROJECT_DIR$/src/ExprEval/evalExpr.java" />
+        <option value="$PROJECT_DIR$/Tests/exprEvalTest.java" />
       </list>
     </option>
   </component>
@@ -195,7 +186,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+    <navigator proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -206,138 +197,7 @@
       <autoscrollFromSource />
       <sortByType />
     </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Expr-Eval" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Expr-Eval" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="expression-evaluator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Expr-Eval" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="expression-evaluator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ExprEval" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Expr-Eval" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="expression-evaluator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Expr-Eval" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="expression-evaluator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="build" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dist" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Expr-Eval" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="expression-evaluator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="build" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dist" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Expr-Eval" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="expression-evaluator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="build" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dist" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Expr-Eval" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="expression-evaluator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="build" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="GoToClass.includeLibraries" value="false" />
@@ -358,7 +218,7 @@
       <recent name="D:\projects\Expr-Eval\lib" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.exprEvalTest.testShouldEvaluateExpressionThatContainsIntoOperatorAndTwoOperands">
+  <component name="RunManager" selected="JUnit.exprEvalTest.testShouldEvaluateExpressionThatContainsNestedBracketandOperatorsandOperandsOutside">
     <configuration default="false" name="exprEvalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Expr-Eval" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -367,50 +227,6 @@
       <option name="MAIN_CLASS_NAME" value="exprEvalTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="exprEvalTest.testShouldEvaluateExpressionThatContainsSinglePairBracketsWithOperatorsOutsideBracketsAlso" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Expr-Eval" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="exprEvalTest" />
-      <option name="METHOD_NAME" value="testShouldEvaluateExpressionThatContainsSinglePairBracketsWithOperatorsOutsideBracketsAlso" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="exprEvalTest.testShouldEvaluateExpressionThatContainsSinglePairBracketsWithOperatorsBeforeBrackets" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Expr-Eval" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="exprEvalTest" />
-      <option name="METHOD_NAME" value="testShouldEvaluateExpressionThatContainsSinglePairBracketsWithOperatorsBeforeBrackets" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -454,6 +270,50 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="exprEvalTest" />
       <option name="METHOD_NAME" value="testShouldEvaluateExpressionThatContainsIntoOperatorAndTwoOperands" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="exprEvalTest.testShouldEvaluateExpressionThatContainsMultiplePairBracketsWithOperatorsBeforeBrackets" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Expr-Eval" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="exprEvalTest" />
+      <option name="METHOD_NAME" value="testShouldEvaluateExpressionThatContainsMultiplePairBracketsWithOperatorsBeforeBrackets" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="exprEvalTest.testShouldEvaluateExpressionThatContainsNestedBracketandOperatorsandOperandsOutside" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Expr-Eval" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="exprEvalTest" />
+      <option name="METHOD_NAME" value="testShouldEvaluateExpressionThatContainsNestedBracketandOperatorsandOperandsOutside" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -598,18 +458,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.exprEvalTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.exprEvalTest.testShouldEvaluateExpressionThatContainsSinglePairBracketsWithOperatorsOutsideBracketsAlso" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.exprEvalTest.testShouldEvaluateExpressionThatContainsSinglePairBracketsWithOperatorsBeforeBrackets" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.exprEvalTest.testShouldEvaluateExpressionThatContainsNestedBrackets" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.exprEvalTest.testShouldEvaluateExpressionThatContainsIntoOperatorAndTwoOperands" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.exprEvalTest.testShouldEvaluateExpressionThatContainsNestedBrackets" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.exprEvalTest.testShouldEvaluateExpressionThatContainsIntoOperatorAndTwoOperands" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.exprEvalTest.testShouldEvaluateExpressionThatContainsMultiplePairBracketsWithOperatorsBeforeBrackets" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.exprEvalTest.testShouldEvaluateExpressionThatContainsNestedBracketandOperatorsandOperandsOutside" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.exprEvalTest.testShouldEvaluateExpressionThatContainsIntoOperatorAndTwoOperands" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.exprEvalTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.exprEvalTest.testShouldEvaluateExpressionThatContainsNestedBrackets" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.exprEvalTest.testShouldEvaluateExpressionThatContainsSinglePairBracketsWithOperatorsBeforeBrackets" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.exprEvalTest.testShouldEvaluateExpressionThatContainsSinglePairBracketsWithOperatorsOutsideBracketsAlso" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.exprEvalTest.testShouldEvaluateExpressionThatContainsNestedBracketandOperatorsandOperandsOutside" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.exprEvalTest.testShouldEvaluateExpressionThatContainsMultiplePairBracketsWithOperatorsBeforeBrackets" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.exprEvalTest.testShouldEvaluateExpressionThatContainsIntoOperatorAndTwoOperands" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.exprEvalTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.exprEvalTest.testShouldEvaluateExpressionThatContainsNestedBrackets" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -709,7 +569,11 @@
       <created>1390483230786</created>
       <updated>1390483230786</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="program able o handle multiple nested brackets">
+      <created>1390537955868</created>
+      <updated>1390537955869</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -733,7 +597,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16796875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32986626" sideWeight="0.81640625" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32986626" sideWeight="0.81640625" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32986626" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -795,7 +659,8 @@
     <MESSAGE value="program is able to handle spaces&#10;program not able to handle spaces but can handle multiple brackets" />
     <MESSAGE value="program is able to handle spaces&#10;program not able to handle spaces but can handle multiple brackets&#10;" />
     <MESSAGE value="readme file updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="readme file updated" />
+    <MESSAGE value="program able o handle multiple nested brackets" />
+    <option name="LAST_COMMIT_MESSAGE" value="program able o handle multiple nested brackets" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1128,16 +993,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/exprEvalTest.java">
+    <entry file="file://$PROJECT_DIR$/src/ExprEval/evalExpr.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="27" selection-start="911" selection-end="911" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="1343">
+        <state line="49" column="70" selection-start="1739" selection-end="1739" vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="1122">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ExprEval/evalExpr.java">
+    <entry file="file://$PROJECT_DIR$/Tests/exprEvalTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="107" selection-start="936" selection-end="936" vertical-scroll-proportion="-0.04" vertical-offset="493" max-vertical-offset="1122">
+        <state line="88" column="38" selection-start="3346" selection-end="3346" vertical-scroll-proportion="3.4" vertical-offset="0" max-vertical-offset="1615">
           <folding />
         </state>
       </provider>
