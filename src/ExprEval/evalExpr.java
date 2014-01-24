@@ -13,11 +13,11 @@ public class evalExpr {
     }
 
 
-    public double evaluate(String exp){
+    public double evaluate(String exp)throws Exception{
 
         double result;
         boolean operatorPresent;
-        String expression = exp;
+        String expression = getModifiedString(exp);
         String[] expressionElements;
         ArrayList<String> operators = new ArrayList();
         ArrayList<Double> operands = new ArrayList();
@@ -42,7 +42,13 @@ public class evalExpr {
 
     }
 
-    public double performOperation(ArrayList<String> operators,ArrayList<Double> operands){
+    public String getModifiedString(String expression){
+        return expression.replaceAll(" +", "").replaceAll("\\+", " + ").replaceAll("\\/", " / ")
+        .replaceAll("\\-", " - ") .replaceAll("\\*", " * ").replaceAll("\\^", " ^ ").replaceAll("\\(", "( ")
+        .replaceAll("\\)", " )").replaceAll("  - ", " -").replaceFirst("^ - ", "-");
+    }
+
+    public double performOperation(ArrayList<String> operators,ArrayList<Double> operands)throws Exception{
         double result = operands.get(0) ;
         int i = 0;
         for (String operator : operators) {
